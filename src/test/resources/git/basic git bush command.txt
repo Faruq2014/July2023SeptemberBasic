@@ -1,6 +1,9 @@
 https://www.youtube.com/watch?v=pDmYNK68IEc
 
 how to create branch
+most popular one or easiest one
+//$ git checkout -b 'sprintOne'
+
 git branch (branch name)
 git branch WorkdayProduct
 
@@ -29,22 +32,22 @@ git checkout master
 https://www.youtube.com/watch?v=GZILYABgAoo
 
 Step 1 : Create branch 
-   git branch “branch name”
+   git branch â€œbranch nameâ€�
 
 Step 2 : Checkout branch
-   git checkout “branch name”
+   git checkout â€œbranch nameâ€�
 
 Step2a: push code to the new branch
    git push -u orgin "branch name"
 
 Step 3 : Merge new branch in master branch // make sure you are already in master branch.
-   git merge “branch name”
+   git merge â€œbranch nameâ€�
 // then puch the code in master 
 git push orgin master.
 
 Step 4 : Delete branchgit 
-   git branch -d “branch name”    — delete from local
-   git push origin --delete “branch name”   — delete from remote
+   git branch -d â€œbranch nameâ€�    â€” delete from local
+   git push origin --delete â€œbranch nameâ€�   â€” delete from remote
 
 
 
