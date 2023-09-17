@@ -1,0 +1,34 @@
+to intialize Git
+git init
+ to add all the files
+git add .
+ to commit 
+git commit -m 'first commit'
+
+
+add remote repo
+git remote add origin git@github.com:Faruq2014/Log4j2.git
+
+push to the remote
+git push -u origin master 
+
+for the second time and onward
+git push
+
+
+
+git remote add origin git@github.com:Faruq2014/WebTable.git
+
+git@github.com:Faruq2014/WebTable.git
+
+    git branch --set-upstream-to=origin/main main
+
+
+
+echo "# Log4j2" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin git@github.com:Faruq2014/Log4j2.git
+git push -u origin master

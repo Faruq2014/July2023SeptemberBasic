@@ -1,0 +1,52 @@
+https://www.youtube.com/watch?v=pDmYNK68IEc
+
+how to create branch
+git branch (branch name)
+git branch WorkdayProduct
+
+to find list of the branch
+git branch --list
+
+to switch the branch
+git checkout Product (put branch name)
+
+one command for both of above command.
+git checkout -b WorkdayProcuct  // miss spelled but its ok.
+
+to add 
+git add .
+
+to commit
+git commit -m 'first commit in wp branch'
+
+to push first time at the WorkdayProcuct
+git push --set-upstream orgin WorkdayProcuct
+
+to switch branches 
+git checkout master
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+https://www.youtube.com/watch?v=GZILYABgAoo
+
+Step 1 : Create branch 
+   git branch “branch name”
+
+Step 2 : Checkout branch
+   git checkout “branch name”
+
+Step2a: push code to the new branch
+   git push -u orgin "branch name"
+
+Step 3 : Merge new branch in master branch // make sure you are already in master branch.
+   git merge “branch name”
+// then puch the code in master 
+git push orgin master.
+
+Step 4 : Delete branchgit 
+   git branch -d “branch name”    — delete from local
+   git push origin --delete “branch name”   — delete from remote
+
+
+
+
+
