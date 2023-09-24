@@ -34,6 +34,6 @@ WebDriver driver;
 		//start with
 		driver.findElement(By.cssSelector("[id^='u_0_5_']")).click();
 		//driver.findElement(By.cssSelector("#^u_0_5")).click();
-		driver.quit();
+		//driver.quit();
 	}
 }
