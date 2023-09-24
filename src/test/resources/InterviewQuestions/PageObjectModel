@@ -1,0 +1,62 @@
+  what is page object model POM
+  what is object repository
+  what is constructor
+  how many types of constructor in java
+  what is default constructor
+  what is user define constructor
+  what is user define constructor
+  how POM design constructor
+  what is PageFactory
+  what is initElements
+  what is POM formula
+  ans: every thing in the page is an element and every element should have its own method.
+  list of web elements:
+  	Links
+	Paragraphs
+	Headings
+	Numbered and bulleted lists
+	Tables
+	Regions
+	Images
+	Form controls including 
+		radio buttons, 
+		edit fields, 
+		check boxes, 
+		combo boxes, 
+		list boxes, 
+		and buttons
+	what is webElement
+	should we have void method or return method
+
+what is has a reloationship in java
+ explain how POM work together
+ how do you design pom frame work
+   Step-1
+   we build two packages such as 
+		   loginPages 
+		   and loginTests
+   Step-2
+	   a. in the loginPages package we create a Class call LoginPage
+	   and it will work as a Object Repository or provider
+	   b. we will design a POM constructor with PageFactoryInitElements
+	   and it will build all the instance properties from this class.
+	   c.FindBy annotation in selenium----
+	   
+	Step-3   
+	   in the loginTests package 
+	   a. we create a Class call LoginTest and it will work as a consumer. 
+	   b. we will build has a relationship with Login page and
+	   use all the propertise as needed from LoginPage.
+	   
+	   
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  	
