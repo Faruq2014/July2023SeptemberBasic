@@ -13,6 +13,10 @@ public class LoginPage {
 
 	/**
 	 * @param driver user define constructor for POM
+	 * page object model Style of coding:
+	 * it should have user define constructor to instantiate all properties
+	 * every locators in a page is an object such as input, button, drop down, radio button...
+	 * every locator/object should have it's own method
 	 */
 	
 

@@ -1,0 +1,10 @@
+What is pageFactory 
+what is initElements
+what is FindBy annotation
+what is FindBy How
+how do you design FindBy method
+	 Step-1: build a variable using @Find by formula
+	 and develop and it should instance variable
+	 Step-2: build a void or return type method and use 
+	 that instance variable to execute different functions.
+
