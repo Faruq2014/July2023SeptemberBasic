@@ -3,14 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.facebook.pom_PageFactory.LoginTestWithPageFactory">
+      <class name="com.facebook.baseLoginTest.LoginTest">
         <methods>
-          <include name="inValidLoginTest"/>
           <include name="validLoginTest"/>
           <include name="openApp"/>
-          <include name="boundaryLoginTest"/>
         </methods>
-      </class> <!-- com.facebook.pom_PageFactory.LoginTestWithPageFactory -->
+      </class> <!-- com.facebook.baseLoginTest.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
