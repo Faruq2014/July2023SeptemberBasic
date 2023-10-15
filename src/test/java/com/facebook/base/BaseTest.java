@@ -30,7 +30,8 @@ public class BaseTest {
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
 		} else if (browser.equalsIgnoreCase("Firefox")) {
-			WebDriverManager.firefoxdriver().setup();
+			//WebDriverManager.firefoxdriver().setup();
+			System.setProperty("webdriver.gecko.driver", "C:/WS/DriverForSelenium/geckodriver.exe");
 			driver = new FirefoxDriver();
 		} else {
 			System.out.println("Chrome is default browser");
